@@ -24,7 +24,7 @@ import java.util.regex.Pattern;
  * <li> Call <br>
  * cat driver-charge-hamrah-1.log |grep AUTO_CHARGE |grep UNKNOWNERROR |grep
  * charge.hamrah.first.HamrahChargeQueueConsumer | ~/jdk1.8.0_131/jre/bin/java
- * -jar ~/RegexMessages-Alpha.jar > ~/UNKNOWNERROR.csv `
+ * -jar ~/ParseLogs.jar > ~/UNKNOWNERROR.csv `
  * </ol>
  */
 public class ParseLogs {
